@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Программирование как хобби</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-image: url(/html/images/background.jpeg);
+            background-size: cover;
+            background-position: center;  
+        }
+        .header {
+            top: 0;
+            width: 100%;
+            background: white;
+            padding: 20px 0;
+        }
+        .main-title {
+            text-align: center;
+            color: #2d3748;
+            font-size: 2em;
+            margin-top: 10px;
+        }
+        .main-content {
+            max-width: 1000px;
+            margin: 120px auto 40px;
+            padding: 0 20px;
+        }
+        .section {
+            background: white;
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #764ba2;
+        }
+        .section h3 {
+            color: #764ba2;
+            margin: 20px 0 15px;
+        }
+        .section p {
+            margin-bottom: 15px;
+        }
+        ul{
+            margin: 20px 0 20px 40px;
+        }
+
+        ul li{
+            margin-bottom: 10px;
+        }
+        .schedule-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .schedule-table caption {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #667eea;
+            padding: 15px;
+            background: #f5f5f5;
+            caption-side: top;
+        }
+        .schedule-table thead {
+            background: #667eea;
+            color: white;
+        }
+        .schedule-table th, .schedule-table td {
+            padding: 12px 15px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        .schedule-table tbody tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+
+        .schedule-table tbody tr:hover {
+            background: #e0e7ff;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1 class="main-title">Программирование как хобби</h1>
+    </header>
+    <main class="main-content">
+        <section id="home" class="section">
+            <h2>Добро пожаловать в мир программирования!</h2>
+            <p>Программирование — это не только профессия, но и увлекательное хобби, которое развивает логическое мышление и творческие способности.</p>
+            <p>Ключевые концепции включают <strong>алгоритмы</strong>, <em>структуры данных</em> и <strong>объектно-ориентированное программирование</strong>.</p>
+
+        <section id="about" class="section">
+            <h2>Почему я выбрал программирование?</h2>
+            <p>Я начал программировать в <strong>15 лет</strong> и с тех пор постоянно развиваюсь в этой области.</p>
+            <div>
+                <img url="/html/images/pc.jpeg" alt="Программирование как хобби">
+            </div>
+            <h3>Инструменты программиста:</h3>
+            <ul>
+                <li>Компьютер</li>
+                <li>Текстовый редактор (VS Code)</li>
+                <li>Система контроля версий (Git)</li>
+                <li>Терминал</li>
+                <li>Документация</li>
+            </ul>
+        </section>
+
+        <section id="schedule" class="section">
+            <h2>Мой график занятий</h2>
+            <table class="schedule-table">
+                <caption>Еженедельный график программирования</caption>
+                <thead>
+                    <tr>
+                        <th>День</th>
+                        <th>Время</th>
+                        <th>Активность</th>
+                        <th>Технология</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Понедельник</td>
+                        <td>18:00-20:00</td>
+                        <td>Изучение новых концепций</td>
+                        <td>Python</td>
+                    </tr>
+                    <tr>
+                        <td>Вторник</td>
+                        <td>19:00-21:00</td>
+                        <td>Практические проекты</td>
+                        <td>JavaScript</td>
+                    </tr>
+                    <tr>
+                        <td>Среда</td>
+                        <td>18:30-20:30</td>
+                        <td>Алгоритмы</td>
+                        <td>C++</td>
+                    </tr>
+                    <tr>
+                        <td>Четверг</td>
+                        <td>19:00-21:00</td>
+                        <td>Веб-разработка</td>
+                        <td>HTML</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
